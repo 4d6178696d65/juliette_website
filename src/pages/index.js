@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import logo from '../assets/img/logo.png'
+import logo from '../assets/img/logo.png';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
@@ -15,8 +15,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-<img src={logo} alt="logo"></img>
-
+          <img src={logo} alt="logo"></img>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -27,7 +26,7 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic4} alt="" />
+            <img src={pic5} alt="" />
           </a>
           <div className="content">
             <h2 className="major"> Présentation </h2>
@@ -62,7 +61,6 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-         
           </div>
         </div>
       </section>
@@ -81,7 +79,6 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-        
           </div>
         </div>
       </section>
@@ -89,9 +86,7 @@ const IndexPage = () => (
       <section id="four" className="wrapper alt style1">
         <div className="inner">
           <h2 className="major">Photos</h2>
-          <p>
-           Photos de mon activité
-          </p>
+          <p>Photos de mon activité</p>
           <section className="features">
             <article>
               <a href="/#" className="image">
@@ -102,7 +97,6 @@ const IndexPage = () => (
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
               </p>
-         
             </article>
             <article>
               <a href="/#" className="image">
@@ -113,7 +107,7 @@ const IndexPage = () => (
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
               </p>
-           </article>
+            </article>
             <article>
               <a href="/#" className="image">
                 <img src={pic6} alt="" />
@@ -123,7 +117,6 @@ const IndexPage = () => (
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
               </p>
-            
             </article>
             <article>
               <a href="/#" className="image">
@@ -134,10 +127,8 @@ const IndexPage = () => (
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
               </p>
-             
             </article>
           </section>
-      
         </div>
       </section>
     </section>
