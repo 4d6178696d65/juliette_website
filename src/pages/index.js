@@ -69,9 +69,7 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-      </section>
 
-      <section id="two" className="wrapper spotlight style3">
         <div className="inner">
           <div className="content" style={{ float: 'left' }}>
             <h2 style={{ textAlign: 'center' }} className="major">
@@ -88,9 +86,7 @@ const IndexPage = () => (
             </h2>
           </div>
         </div>
-      </section>
 
-      <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <img
             style={{ height: '40vh', width: '50vh' }}
