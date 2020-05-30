@@ -5,7 +5,7 @@ import logo from '../assets/img/logo.png';
 import pic0 from '../assets/images/0.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/7.jpg';
-import pic8 from '../assets/images/clicker.jpg';
+import pic8 from '../assets/images/8.jpg';
 import pic9 from '../assets/images/boun.jpg';
 import pic10 from '../assets/images/1.jpg';
 import pic12 from '../assets/images/3.jpg';
@@ -182,7 +182,7 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="inner">
-          <img style={{ height: '35vh' }} className="image" src={pic8} alt="" />
+          <img style={{ height: '30vh' }} className="image" src={pic8} alt="" />
           <div className="content">
             <h2 className="major">Initiation clicker-training</h2>
             <p>
