@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import logo from '../assets/img/logo.png';
 import pic0 from '../assets/images/0.jpg';
 import pic6 from '../assets/images/pic06.jpg';
+import pic7 from '../assets/images/7.jpg';
 import pic8 from '../assets/images/clicker.jpg';
 import pic9 from '../assets/images/boun.jpg';
 import pic10 from '../assets/images/1.jpg';
@@ -76,26 +77,10 @@ const IndexPage = () => (
             <h2 style={{ textAlign: 'center' }} className="major">
               Prestations:
             </h2>
-            <img
-              style={{ height: '15rem', width: '15rem' }}
-              src={pic13}
-              alt=""
-            />
-            <img
-              style={{ height: '15rem', width: '15rem' }}
-              src={pic14}
-              alt=""
-            />
-            <img
-              style={{ height: '15rem', width: '14.5rem' }}
-              src={pic9}
-              alt=""
-            />
-            <img
-              style={{ height: '15rem', width: '15rem' }}
-              src={pic11}
-              alt=""
-            />
+            <img style={{ height: '28vh', width: '28vh' }} src={pic13} alt="" />
+            <img style={{ height: '28vh', width: '28vh' }} src={pic14} alt="" />
+            <img style={{ height: '28vh', width: '28vh' }} src={pic9} alt="" />
+            <img style={{ height: '28vh', width: '28vh' }} src={pic7} alt="" />
 
             <h2 className="major">
               Bilan comportemental et Séances d'éducation individuelles / Dog
