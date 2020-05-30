@@ -8,7 +8,6 @@ import pic7 from '../assets/images/7.jpg';
 import pic8 from '../assets/images/clicker.jpg';
 import pic9 from '../assets/images/boun.jpg';
 import pic10 from '../assets/images/1.jpg';
-import pic11 from '../assets/images/2.jpg';
 import pic12 from '../assets/images/3.jpg';
 import pic13 from '../assets/images/4.jpg';
 import pic14 from '../assets/images/6.jpg';
@@ -72,18 +71,35 @@ const IndexPage = () => (
 
         <div className="inner">
           <div className="content" style={{ float: 'left' }}>
-            <h2 style={{ textAlign: 'center' }} className="major">
-              Prestations:
-            </h2>
-            <img style={{ height: '28vh', width: '28vh' }} src={pic13} alt="" />
-            <img style={{ height: '28vh', width: '28vh' }} src={pic14} alt="" />
-            <img style={{ height: '28vh', width: '28vh' }} src={pic9} alt="" />
-            <img style={{ height: '28vh', width: '28vh' }} src={pic7} alt="" />
-
-            <h2 className="major">
-              Bilan comportemental et Séances d'éducation individuelles / Dog
-              dancing / Initiation clicker-training / Médiation animale.
-            </h2>
+            <center>
+              <h2 style={{ textAlign: 'center' }} className="major">
+                Prestations:
+              </h2>
+              <img
+                style={{ height: '28vh', width: '28vh' }}
+                src={pic13}
+                alt=""
+              />
+              <img
+                style={{ height: '28vh', width: '28vh' }}
+                src={pic14}
+                alt=""
+              />
+              <img
+                style={{ height: '28vh', width: '28vh' }}
+                src={pic9}
+                alt=""
+              />
+              <img
+                style={{ height: '28vh', width: '28vh' }}
+                src={pic7}
+                alt=""
+              />
+              <h2 className="major">
+                Bilan comportemental et Séances d'éducation individuelles / Dog
+                dancing / Initiation clicker-training / Médiation animale.
+              </h2>
+            </center>
           </div>
         </div>
 
