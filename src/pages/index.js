@@ -61,7 +61,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="three" className="wrapper spotlight style3" >
+      <section id="two" className="wrapper spotlight style3" >
         <div className="inner" >
         
           <div className="content" style={{float:"left"}}>
@@ -100,7 +100,7 @@ Le bilan se déroule à votre domicile. Il dure environ de 1h à 2h.
 Tarif : 65 €</p>
 <h1>Comment fonctionne les séances d’éducation individuelle ?</h1>
 <p>A la suite du bilan un programme d’éducation personnalisé répondant à votre problématique vous ai proposé pour vous et votre chien.
-Le programme se compose généralement de 5 à 10 séances avec des objectifs bien précis.
+Le programme se compose généralement de 5 à 10 séances avec des objectifs bien précis (par exemple : création de la complicité, rappel efficace, apprentissage de la solitude...).
 En fonction de vos besoins elles se déroulent dans différents environnements (ville, parc, forêt et domicile).
 Une séance dure 1h
 Tarif : 40 €</p>
@@ -115,12 +115,14 @@ Tarif : 40 €</p>
 <p>Il existe 2 styles :</p>
 Le freestyle : Travail à distance 
 <p>Heelwork to music (HTM) : Travail près du maître (ne pas s’éloigner de plus de 2 m). <br/> 10 positions sont imposées.</p>
-<p>Tarif journée: 60€ par personne | Tarif demi-journée: 30€ par personne.</p>
+<p>Ce sport permet de développer la complicité et la réflexion mentale de votre chien.<br/>Cours : débutant jusqu'à avancé.</p>
+<p>
+Tarif journée: 60€ par personne | Tarif demi-journée: 30€ par personne.</p>
 </div>
 </div>
 <div className="inner">
 
-<img style={{height:"30vh"}} className="image" src={pic8} alt="" />
+<img style={{height:"35vh"}} className="image" src={pic8} alt="" />
 <div className="content">
 
 <h2 className="major">Initiation clicker-training</h2>
